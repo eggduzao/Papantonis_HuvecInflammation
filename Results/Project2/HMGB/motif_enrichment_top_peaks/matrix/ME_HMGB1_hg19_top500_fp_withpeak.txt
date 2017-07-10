@@ -1,0 +1,2 @@
+name	type	file
+HMGB1_hg19_top500_fp_withpeak	regions	/home/egg/eg474423_Projects/trunk/HuvecInflammation/Results/HMGB/motif_enrichment_top_peaks/input/HMGB1_hg19_top500_fp_withpeak.bed

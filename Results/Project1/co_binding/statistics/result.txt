@@ -1,0 +1,406 @@
+
+############ Intersection Test ############
+
+Reference	sequence_number	Query	sequence_number	Number of Intersection
+all	8583	broad_huvec_ctcf	32621	905
+all	8583	duke_huvec_ctcf	40316	992
+all	8583	sydh_huvec_fos	39908	4080
+all	8583	sydh_huvec_gata2	22310	2903
+all	8583	sydh_huvec_jun	17026	2892
+all	8583	sydh_huvec_max	4069	912
+all	8583	uw_huvec_ctcf	36047	1267
+with	3762	broad_huvec_ctcf	32621	496
+with	3762	duke_huvec_ctcf	40316	500
+with	3762	sydh_huvec_fos	39908	1437
+with	3762	sydh_huvec_gata2	22310	918
+with	3762	sydh_huvec_jun	17026	858
+with	3762	sydh_huvec_max	4069	435
+with	3762	uw_huvec_ctcf	36047	703
+with_clust1	283	broad_huvec_ctcf	32621	49
+with_clust1	283	duke_huvec_ctcf	40316	47
+with_clust1	283	sydh_huvec_fos	39908	112
+with_clust1	283	sydh_huvec_gata2	22310	78
+with_clust1	283	sydh_huvec_jun	17026	60
+with_clust1	283	sydh_huvec_max	4069	32
+with_clust1	283	uw_huvec_ctcf	36047	70
+with_clust2	303	broad_huvec_ctcf	32621	62
+with_clust2	303	duke_huvec_ctcf	40316	54
+with_clust2	303	sydh_huvec_fos	39908	134
+with_clust2	303	sydh_huvec_gata2	22310	81
+with_clust2	303	sydh_huvec_jun	17026	73
+with_clust2	303	sydh_huvec_max	4069	44
+with_clust2	303	uw_huvec_ctcf	36047	96
+with_clust3	1142	broad_huvec_ctcf	32621	125
+with_clust3	1142	duke_huvec_ctcf	40316	131
+with_clust3	1142	sydh_huvec_fos	39908	483
+with_clust3	1142	sydh_huvec_gata2	22310	328
+with_clust3	1142	sydh_huvec_jun	17026	311
+with_clust3	1142	sydh_huvec_max	4069	123
+with_clust3	1142	uw_huvec_ctcf	36047	169
+with_clust4	706	broad_huvec_ctcf	32621	129
+with_clust4	706	duke_huvec_ctcf	40316	125
+with_clust4	706	sydh_huvec_fos	39908	299
+with_clust4	706	sydh_huvec_gata2	22310	177
+with_clust4	706	sydh_huvec_jun	17026	175
+with_clust4	706	sydh_huvec_max	4069	160
+with_clust4	706	uw_huvec_ctcf	36047	193
+with_clust5	1328	broad_huvec_ctcf	32621	131
+with_clust5	1328	duke_huvec_ctcf	40316	143
+with_clust5	1328	sydh_huvec_fos	39908	409
+with_clust5	1328	sydh_huvec_gata2	22310	254
+with_clust5	1328	sydh_huvec_jun	17026	239
+with_clust5	1328	sydh_huvec_max	4069	76
+with_clust5	1328	uw_huvec_ctcf	36047	175
+wo	4821	broad_huvec_ctcf	32621	409
+wo	4821	duke_huvec_ctcf	40316	492
+wo	4821	sydh_huvec_fos	39908	2643
+wo	4821	sydh_huvec_gata2	22310	1985
+wo	4821	sydh_huvec_jun	17026	2034
+wo	4821	sydh_huvec_max	4069	477
+wo	4821	uw_huvec_ctcf	36047	564
+wo_clust1	439	broad_huvec_ctcf	32621	49
+wo_clust1	439	duke_huvec_ctcf	40316	54
+wo_clust1	439	sydh_huvec_fos	39908	212
+wo_clust1	439	sydh_huvec_gata2	22310	153
+wo_clust1	439	sydh_huvec_jun	17026	156
+wo_clust1	439	sydh_huvec_max	4069	61
+wo_clust1	439	uw_huvec_ctcf	36047	70
+wo_clust2	341	broad_huvec_ctcf	32621	20
+wo_clust2	341	duke_huvec_ctcf	40316	31
+wo_clust2	341	sydh_huvec_fos	39908	150
+wo_clust2	341	sydh_huvec_gata2	22310	104
+wo_clust2	341	sydh_huvec_jun	17026	108
+wo_clust2	341	sydh_huvec_max	4069	24
+wo_clust2	341	uw_huvec_ctcf	36047	34
+wo_clust3	724	broad_huvec_ctcf	32621	64
+wo_clust3	724	duke_huvec_ctcf	40316	76
+wo_clust3	724	sydh_huvec_fos	39908	435
+wo_clust3	724	sydh_huvec_gata2	22310	344
+wo_clust3	724	sydh_huvec_jun	17026	355
+wo_clust3	724	sydh_huvec_max	4069	81
+wo_clust3	724	uw_huvec_ctcf	36047	83
+wo_clust4	771	broad_huvec_ctcf	32621	87
+wo_clust4	771	duke_huvec_ctcf	40316	100
+wo_clust4	771	sydh_huvec_fos	39908	422
+wo_clust4	771	sydh_huvec_gata2	22310	318
+wo_clust4	771	sydh_huvec_jun	17026	314
+wo_clust4	771	sydh_huvec_max	4069	137
+wo_clust4	771	uw_huvec_ctcf	36047	131
+wo_clust5	2546	broad_huvec_ctcf	32621	189
+wo_clust5	2546	duke_huvec_ctcf	40316	231
+wo_clust5	2546	sydh_huvec_fos	39908	1424
+wo_clust5	2546	sydh_huvec_gata2	22310	1066
+wo_clust5	2546	sydh_huvec_jun	17026	1101
+wo_clust5	2546	sydh_huvec_max	4069	174
+wo_clust5	2546	uw_huvec_ctcf	36047	246
+ERROR: Problem in PDF conversion. Skipped.
+ERROR: Problem in PDF conversion. Skipped.
+ERROR: Problem in PDF conversion. Skipped.
+
+All related files are saved in:  /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/statistics/result/peakseq_intersect/intersection_test
+
+Total running time is : 0:01:45
+
+############## Jaccard Test ###############
+
+Jaccard Test
+Reference	Query	Repeats	True_Jaccard_index	p-value	Time
+all	broad_huvec_ctcf	x100	0.0127	0	0:22:24
+all	duke_huvec_ctcf	x100	0.0125	0	0:23:31
+all	sydh_huvec_fos	x100	0.0561	0	0:23:15
+all	sydh_huvec_gata2	x100	0.0508	0	0:20:36
+all	sydh_huvec_jun	x100	0.0565	0	0:19:04
+all	sydh_huvec_max	x100	0.0224	0	0:16:15
+all	uw_huvec_ctcf	x100	0.0170	0	0:23:12
+with	broad_huvec_ctcf	x100	0.0095	0	0:19:33
+with	duke_huvec_ctcf	x100	0.0083	0	0:21:02
+with	sydh_huvec_fos	x100	0.0255	0	0:20:51
+with	sydh_huvec_gata2	x100	0.0229	0	0:17:35
+with	sydh_huvec_jun	x100	0.0247	0	0:16:38
+with	sydh_huvec_max	x100	0.0192	0	0:11:40
+with	uw_huvec_ctcf	x100	0.0126	0	0:20:14
+with_clust1	broad_huvec_ctcf	x100	0.0015	0	0:11:46
+with_clust1	duke_huvec_ctcf	x100	0.0011	0	0:13:21
+with_clust1	sydh_huvec_fos	x100	0.0029	0	0:13:09
+with_clust1	sydh_huvec_gata2	x100	0.0033	0	0:10:09
+with_clust1	sydh_huvec_jun	x100	0.0034	0	0:07:59
+with_clust1	sydh_huvec_max	x100	0.0055	0	0:02:38
+with_clust1	uw_huvec_ctcf	x100	0.0019	0	0:13:08
+with_clust2	broad_huvec_ctcf	x100	0.0018	0	0:12:09
+with_clust2	duke_huvec_ctcf	x100	0.0013	0	0:13:38
+with_clust2	sydh_huvec_fos	x100	0.0036	0	0:14:46
+with_clust2	sydh_huvec_gata2	x100	0.0036	0	0:10:02
+with_clust2	sydh_huvec_jun	x100	0.0040	0	0:08:30
+with_clust2	sydh_huvec_max	x100	0.0072	0	0:02:56
+with_clust2	uw_huvec_ctcf	x100	0.0026	0	0:13:34
+with_clust3	broad_huvec_ctcf	x100	0.0032	0	0:19:38
+with_clust3	duke_huvec_ctcf	x100	0.0028	0	0:21:37
+with_clust3	sydh_huvec_fos	x100	0.0108	0	0:21:06
+with_clust3	sydh_huvec_gata2	x100	0.0121	0	0:18:28
+with_clust3	sydh_huvec_jun	x100	0.0144	0	0:15:14
+with_clust3	sydh_huvec_max	x100	0.0135	0	0:08:35
+with_clust3	uw_huvec_ctcf	x100	0.0040	0	0:20:11
+with_clust4	broad_huvec_ctcf	x100	0.0034	0	0:14:14
+with_clust4	duke_huvec_ctcf	x100	0.0028	0	0:16:12
+with_clust4	sydh_huvec_fos	x100	0.0069	0	0:15:47
+with_clust4	sydh_huvec_gata2	x100	0.0067	0	0:13:09
+with_clust4	sydh_huvec_jun	x100	0.0085	0	0:11:02
+with_clust4	sydh_huvec_max	x100	0.0190	0	0:05:36
+with_clust4	uw_huvec_ctcf	x100	0.0047	0	0:15:15
+with_clust5	broad_huvec_ctcf	x100	0.0032	0	0:20:09
+with_clust5	duke_huvec_ctcf	x100	0.0029	0	0:22:01
+with_clust5	sydh_huvec_fos	x100	0.0091	0	0:21:36
+with_clust5	sydh_huvec_gata2	x100	0.0091	0	0:18:11
+with_clust5	sydh_huvec_jun	x100	0.0106	0	0:17:03
+with_clust5	sydh_huvec_max	x100	0.0080	0	0:07:54
+with_clust5	uw_huvec_ctcf	x100	0.0040	0	0:21:29
+wo	broad_huvec_ctcf	x100	0.0078	0	0:25:21
+wo	duke_huvec_ctcf	x100	0.0081	0	0:25:49
+wo	sydh_huvec_fos	x100	0.0474	0	0:25:03
+wo	sydh_huvec_gata2	x100	0.0507	0	0:21:53
+wo	sydh_huvec_jun	x100	0.0612	0	0:20:55
+wo	sydh_huvec_max	x100	0.0216	0	0:15:22
+wo	uw_huvec_ctcf	x100	0.0100	0	0:24:22
+wo_clust1	broad_huvec_ctcf	x100	0.0014	0	0:16:11
+wo_clust1	duke_huvec_ctcf	x100	0.0013	0	0:17:24
+wo_clust1	sydh_huvec_fos	x100	0.0051	0	0:17:29
+wo_clust1	sydh_huvec_gata2	x100	0.0062	0	0:13:41
+wo_clust1	sydh_huvec_jun	x100	0.0086	0	0:12:24
+wo_clust1	sydh_huvec_max	x100	0.0100	0	0:04:35
+wo_clust1	uw_huvec_ctcf	x100	0.0018	0	0:16:58
+wo_clust2	broad_huvec_ctcf	x100	0.0006	0	0:15:08
+wo_clust2	duke_huvec_ctcf	x100	0.0007	0	0:17:14
+wo_clust2	sydh_huvec_fos	x100	0.0037	0	0:16:44
+wo_clust2	sydh_huvec_gata2	x100	0.0043	0	0:12:24
+wo_clust2	sydh_huvec_jun	x100	0.0059	0	0:10:07
+wo_clust2	sydh_huvec_max	x100	0.0042	0	0:03:29
+wo_clust2	uw_huvec_ctcf	x100	0.0009	0	0:16:49
+wo_clust3	broad_huvec_ctcf	x100	0.0018	0	0:20:28
+wo_clust3	duke_huvec_ctcf	x100	0.0017	0	0:21:56
+wo_clust3	sydh_huvec_fos	x100	0.0102	0	0:21:13
+wo_clust3	sydh_huvec_gata2	x100	0.0137	0	0:18:01
+wo_clust3	sydh_huvec_jun	x100	0.0182	0	0:14:09
+wo_clust3	sydh_huvec_max	x100	0.0117	0	0:06:00
+wo_clust3	uw_huvec_ctcf	x100	0.0021	0	0:22:16
+wo_clust4	broad_huvec_ctcf	x100	0.0023	0	0:19:20
+wo_clust4	duke_huvec_ctcf	x100	0.0022	0	0:21:21
+wo_clust4	sydh_huvec_fos	x100	0.0099	0	0:22:11
+wo_clust4	sydh_huvec_gata2	x100	0.0125	0	0:17:58
+wo_clust4	sydh_huvec_jun	x100	0.0158	0	0:15:05
+wo_clust4	sydh_huvec_max	x100	0.0193	0	0:06:27
+wo_clust4	uw_huvec_ctcf	x100	0.0032	0	0:20:52
+wo_clust5	broad_huvec_ctcf	x100	0.0044	0	0:23:41
+wo_clust5	duke_huvec_ctcf	x100	0.0045	0	0:24:56
+wo_clust5	sydh_huvec_fos	x100	0.0299	0	0:25:26
+wo_clust5	sydh_huvec_gata2	x100	0.0349	0	0:22:01
+wo_clust5	sydh_huvec_jun	x100	0.0443	0	0:20:30
+wo_clust5	sydh_huvec_max	x100	0.0136	0	0:13:46
+wo_clust5	uw_huvec_ctcf	x100	0.0051	0	0:23:45
+ERROR: Problem in PDF conversion. Skipped.
+
+All related files are saved in:  /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/statistics/result/peakseq_jaccard/jaccard_test
+
+Total running time is : 1 day, 1:18:55
+
+############ Intersection Test ############
+
+Reference	sequence_number	Query	sequence_number	Number of Intersection
+all	8583	broad_huvec_ctcf	35953	1109
+all	8583	duke_huvec_ctcf	40336	936
+all	8583	sydh_huvec_fos	39443	4056
+all	8583	sydh_huvec_gata2	24273	3015
+all	8583	sydh_huvec_jun	22179	3441
+all	8583	sydh_huvec_max	6813	1433
+all	8583	uw_huvec_ctcf	37438	1292
+with	3762	broad_huvec_ctcf	35953	584
+with	3762	duke_huvec_ctcf	40336	471
+with	3762	sydh_huvec_fos	39443	1413
+with	3762	sydh_huvec_gata2	24273	938
+with	3762	sydh_huvec_jun	22179	1086
+with	3762	sydh_huvec_max	6813	622
+with	3762	uw_huvec_ctcf	37438	704
+with_clust1	283	broad_huvec_ctcf	35953	56
+with_clust1	283	duke_huvec_ctcf	40336	42
+with_clust1	283	sydh_huvec_fos	39443	111
+with_clust1	283	sydh_huvec_gata2	24273	74
+with_clust1	283	sydh_huvec_jun	22179	69
+with_clust1	283	sydh_huvec_max	6813	53
+with_clust1	283	uw_huvec_ctcf	37438	68
+with_clust2	303	broad_huvec_ctcf	35953	70
+with_clust2	303	duke_huvec_ctcf	40336	48
+with_clust2	303	sydh_huvec_fos	39443	134
+with_clust2	303	sydh_huvec_gata2	24273	78
+with_clust2	303	sydh_huvec_jun	22179	97
+with_clust2	303	sydh_huvec_max	6813	63
+with_clust2	303	uw_huvec_ctcf	37438	96
+with_clust3	1142	broad_huvec_ctcf	35953	141
+with_clust3	1142	duke_huvec_ctcf	40336	127
+with_clust3	1142	sydh_huvec_fos	39443	474
+with_clust3	1142	sydh_huvec_gata2	24273	342
+with_clust3	1142	sydh_huvec_jun	22179	394
+with_clust3	1142	sydh_huvec_max	6813	185
+with_clust3	1142	uw_huvec_ctcf	37438	170
+with_clust4	706	broad_huvec_ctcf	35953	156
+with_clust4	706	duke_huvec_ctcf	40336	117
+with_clust4	706	sydh_huvec_fos	39443	287
+with_clust4	706	sydh_huvec_gata2	24273	181
+with_clust4	706	sydh_huvec_jun	22179	227
+with_clust4	706	sydh_huvec_max	6813	207
+with_clust4	706	uw_huvec_ctcf	37438	190
+with_clust5	1328	broad_huvec_ctcf	35953	161
+with_clust5	1328	duke_huvec_ctcf	40336	137
+with_clust5	1328	sydh_huvec_fos	39443	407
+with_clust5	1328	sydh_huvec_gata2	24273	263
+with_clust5	1328	sydh_huvec_jun	22179	299
+with_clust5	1328	sydh_huvec_max	6813	114
+with_clust5	1328	uw_huvec_ctcf	37438	180
+wo	4821	broad_huvec_ctcf	35953	525
+wo	4821	duke_huvec_ctcf	40336	465
+wo	4821	sydh_huvec_fos	39443	2643
+wo	4821	sydh_huvec_gata2	24273	2077
+wo	4821	sydh_huvec_jun	22179	2355
+wo	4821	sydh_huvec_max	6813	811
+wo	4821	uw_huvec_ctcf	37438	588
+wo_clust1	439	broad_huvec_ctcf	35953	62
+wo_clust1	439	duke_huvec_ctcf	40336	47
+wo_clust1	439	sydh_huvec_fos	39443	208
+wo_clust1	439	sydh_huvec_gata2	24273	156
+wo_clust1	439	sydh_huvec_jun	22179	180
+wo_clust1	439	sydh_huvec_max	6813	98
+wo_clust1	439	uw_huvec_ctcf	37438	75
+wo_clust2	341	broad_huvec_ctcf	35953	32
+wo_clust2	341	duke_huvec_ctcf	40336	29
+wo_clust2	341	sydh_huvec_fos	39443	148
+wo_clust2	341	sydh_huvec_gata2	24273	109
+wo_clust2	341	sydh_huvec_jun	22179	133
+wo_clust2	341	sydh_huvec_max	6813	45
+wo_clust2	341	uw_huvec_ctcf	37438	36
+wo_clust3	724	broad_huvec_ctcf	35953	74
+wo_clust3	724	duke_huvec_ctcf	40336	70
+wo_clust3	724	sydh_huvec_fos	39443	439
+wo_clust3	724	sydh_huvec_gata2	24273	358
+wo_clust3	724	sydh_huvec_jun	22179	409
+wo_clust3	724	sydh_huvec_max	6813	129
+wo_clust3	724	uw_huvec_ctcf	37438	77
+wo_clust4	771	broad_huvec_ctcf	35953	112
+wo_clust4	771	duke_huvec_ctcf	40336	95
+wo_clust4	771	sydh_huvec_fos	39443	425
+wo_clust4	771	sydh_huvec_gata2	24273	335
+wo_clust4	771	sydh_huvec_jun	22179	382
+wo_clust4	771	sydh_huvec_max	6813	215
+wo_clust4	771	uw_huvec_ctcf	37438	137
+wo_clust5	2546	broad_huvec_ctcf	35953	245
+wo_clust5	2546	duke_huvec_ctcf	40336	224
+wo_clust5	2546	sydh_huvec_fos	39443	1423
+wo_clust5	2546	sydh_huvec_gata2	24273	1119
+wo_clust5	2546	sydh_huvec_jun	22179	1251
+wo_clust5	2546	sydh_huvec_max	6813	324
+wo_clust5	2546	uw_huvec_ctcf	37438	263
+ERROR: Problem in PDF conversion. Skipped.
+ERROR: Problem in PDF conversion. Skipped.
+ERROR: Problem in PDF conversion. Skipped.
+
+All related files are saved in:  /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/statistics/result/spp_intersect/intersection_test
+
+Total running time is : 0:01:51
+
+############## Jaccard Test ###############
+
+Jaccard Test
+Reference	Query	Repeats	True_Jaccard_index	p-value	Time
+all	broad_huvec_ctcf	x100	0.0152	0	0:22:45
+all	duke_huvec_ctcf	x100	0.0119	0	0:24:53
+all	sydh_huvec_fos	x100	0.0598	0	0:23:18
+all	sydh_huvec_gata2	x100	0.0559	0	0:21:12
+all	sydh_huvec_jun	x100	0.0646	0	0:20:43
+all	sydh_huvec_max	x100	0.0347	0	0:16:49
+all	uw_huvec_ctcf	x100	0.0176	0	0:22:58
+with	broad_huvec_ctcf	x100	0.0107	0	0:19:49
+with	duke_huvec_ctcf	x100	0.0078	0	0:20:49
+with	sydh_huvec_fos	x100	0.0271	0	0:19:58
+with	sydh_huvec_gata2	x100	0.0243	0	0:17:43
+with	sydh_huvec_jun	x100	0.0288	0	0:17:32
+with	sydh_huvec_max	x100	0.0258	0	0:13:34
+with	uw_huvec_ctcf	x100	0.0128	0	0:20:03
+with_clust1	broad_huvec_ctcf	x100	0.0015	0	0:12:26
+with_clust1	duke_huvec_ctcf	x100	0.0010	0	0:13:40
+with_clust1	sydh_huvec_fos	x100	0.0031	0	0:13:25
+with_clust1	sydh_huvec_gata2	x100	0.0033	0	0:10:14
+with_clust1	sydh_huvec_jun	x100	0.0033	0	0:09:42
+with_clust1	sydh_huvec_max	x100	0.0066	0	0:04:09
+with_clust1	uw_huvec_ctcf	x100	0.0019	0	0:12:54
+with_clust2	broad_huvec_ctcf	x100	0.0020	0	0:13:18
+with_clust2	duke_huvec_ctcf	x100	0.0011	0	0:14:20
+with_clust2	sydh_huvec_fos	x100	0.0038	0	0:14:17
+with_clust2	sydh_huvec_gata2	x100	0.0035	0	0:10:56
+with_clust2	sydh_huvec_jun	x100	0.0044	0	0:09:44
+with_clust2	sydh_huvec_max	x100	0.0076	0	0:04:13
+with_clust2	uw_huvec_ctcf	x100	0.0027	0	0:13:21
+with_clust3	broad_huvec_ctcf	x100	0.0035	0	0:20:36
+with_clust3	duke_huvec_ctcf	x100	0.0028	0	0:22:07
+with_clust3	sydh_huvec_fos	x100	0.0114	0	0:20:52
+with_clust3	sydh_huvec_gata2	x100	0.0126	0	0:17:32
+with_clust3	sydh_huvec_jun	x100	0.0153	0	0:16:27
+with_clust3	sydh_huvec_max	x100	0.0163	0	0:10:37
+with_clust3	uw_huvec_ctcf	x100	0.0041	0	0:20:16
+with_clust4	broad_huvec_ctcf	x100	0.0039	0	0:14:49
+with_clust4	duke_huvec_ctcf	x100	0.0026	0	0:14:54
+with_clust4	sydh_huvec_fos	x100	0.0076	0	0:16:13
+with_clust4	sydh_huvec_gata2	x100	0.0075	0	0:13:24
+with_clust4	sydh_huvec_jun	x100	0.0098	0	0:13:44
+with_clust4	sydh_huvec_max	x100	0.0199	0	0:07:42
+with_clust4	uw_huvec_ctcf	x100	0.0046	0	0:15:09
+with_clust5	broad_huvec_ctcf	x100	0.0037	0	0:21:16
+with_clust5	duke_huvec_ctcf	x100	0.0028	0	0:21:26
+with_clust5	sydh_huvec_fos	x100	0.0095	0	0:22:24
+with_clust5	sydh_huvec_gata2	x100	0.0092	0	0:19:07
+with_clust5	sydh_huvec_jun	x100	0.0111	0	0:18:17
+with_clust5	sydh_huvec_max	x100	0.0095	0	0:11:24
+with_clust5	uw_huvec_ctcf	x100	0.0040	0	0:21:07
+wo	broad_huvec_ctcf	x100	0.0095	0	0:24:14
+wo	duke_huvec_ctcf	x100	0.0078	0	0:24:52
+wo	sydh_huvec_fos	x100	0.0507	0	0:23:53
+wo	sydh_huvec_gata2	x100	0.0553	0	0:21:58
+wo	sydh_huvec_jun	x100	0.0646	0	0:21:33
+wo	sydh_huvec_max	x100	0.0341	0	0:17:08
+wo	uw_huvec_ctcf	x100	0.0105	0	0:24:58
+wo_clust1	broad_huvec_ctcf	x100	0.0016	0	0:17:06
+wo_clust1	duke_huvec_ctcf	x100	0.0011	0	0:16:55
+wo_clust1	sydh_huvec_fos	x100	0.0056	0	0:17:27
+wo_clust1	sydh_huvec_gata2	x100	0.0072	0	0:14:39
+wo_clust1	sydh_huvec_jun	x100	0.0086	0	0:13:43
+wo_clust1	sydh_huvec_max	x100	0.0117	0	0:06:42
+wo_clust1	uw_huvec_ctcf	x100	0.0019	0	0:17:41
+wo_clust2	broad_huvec_ctcf	x100	0.0009	0	0:16:28
+wo_clust2	duke_huvec_ctcf	x100	0.0007	0	0:17:29
+wo_clust2	sydh_huvec_fos	x100	0.0039	0	0:17:43
+wo_clust2	sydh_huvec_gata2	x100	0.0047	0	0:12:26
+wo_clust2	sydh_huvec_jun	x100	0.0060	0	0:11:37
+wo_clust2	sydh_huvec_max	x100	0.0056	0	0:05:27
+wo_clust2	uw_huvec_ctcf	x100	0.0010	0	0:16:48
+wo_clust3	broad_huvec_ctcf	x100	0.0019	0	0:20:54
+wo_clust3	duke_huvec_ctcf	x100	0.0016	0	0:22:30
+wo_clust3	sydh_huvec_fos	x100	0.0112	0	0:21:28
+wo_clust3	sydh_huvec_gata2	x100	0.0143	0	0:17:46
+wo_clust3	sydh_huvec_jun	x100	0.0175	0	0:16:14
+wo_clust3	sydh_huvec_max	x100	0.0141	0	0:09:03
+wo_clust3	uw_huvec_ctcf	x100	0.0020	0	0:21:11
+wo_clust4	broad_huvec_ctcf	x100	0.0028	0	0:20:00
+wo_clust4	duke_huvec_ctcf	x100	0.0022	0	0:22:17
+wo_clust4	sydh_huvec_fos	x100	0.0106	0	0:22:45
+wo_clust4	sydh_huvec_gata2	x100	0.0135	0	0:18:18
+wo_clust4	sydh_huvec_jun	x100	0.0160	0	0:18:43
+wo_clust4	sydh_huvec_max	x100	0.0226	0	0:09:07
+wo_clust4	uw_huvec_ctcf	x100	0.0034	0	0:20:43
+wo_clust5	broad_huvec_ctcf	x100	0.0053	0	0:25:13
+wo_clust5	duke_huvec_ctcf	x100	0.0044	0	0:25:59
+wo_clust5	sydh_huvec_fos	x100	0.0316	0	0:25:04
+wo_clust5	sydh_huvec_gata2	x100	0.0368	0	0:22:52
+wo_clust5	sydh_huvec_jun	x100	0.0430	0	0:21:25
+wo_clust5	sydh_huvec_max	x100	0.0212	0	0:16:23
+wo_clust5	uw_huvec_ctcf	x100	0.0054	0	0:25:52
+ERROR: Problem in PDF conversion. Skipped.
+
+All related files are saved in:  /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/statistics/result/spp_jaccard/jaccard_test
+
+Total running time is : 1 day, 2:22:45

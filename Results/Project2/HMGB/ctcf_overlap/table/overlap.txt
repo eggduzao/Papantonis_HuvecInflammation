@@ -1,0 +1,28 @@
+HMGB1 Peaks WITH CTCF ChIP-seq Peaks:	623
+HMGB1 Peaks WITHOUT CTCF ChIP-seq Peaks:	1928
+CTCF ChIP-seq Peaks WITH HMGB1 Peaks:	652
+CTCF ChIP-seq Peaks WITHOUT HMGB1 Peaks:	44663
+Fisher p-value = 0.0
+---------------------------------------------
+
+HMGB2 Peaks (narrow) WITH CTCF ChIP-seq Peaks:	345
+HMGB2 Peaks (narrow) WITHOUT CTCF ChIP-seq Peaks:	1046
+CTCF ChIP-seq Peaks WITH HMGB2 Peaks (narrow):	366
+CTCF ChIP-seq Peaks WITHOUT HMGB2 Peaks (narrow):	44949
+Fisher p-value = 0.0
+---------------------------------------------
+
+HMGB1 Peaks WITH CTCF MPBSs:	482
+HMGB1 Peaks WITHOUT CTCF MPBSs:	2069
+CTCF MPBSs WITH HMGB1 Peaks:	739
+CTCF MPBSs WITHOUT HMGB1 Peaks:	23633
+Fisher p-value = 1.26538434034e-185
+---------------------------------------------
+
+HMGB2 Peaks (narrow) WITH CTCF MPBSs:	109
+HMGB2 Peaks (narrow) WITHOUT CTCF MPBSs:	1282
+CTCF MPBSs WITH HMGB2 Peaks (narrow):	143
+CTCF MPBSs WITHOUT HMGB2 Peaks (narrow):	24229
+Fisher p-value = 2.74937508135e-70
+---------------------------------------------
+

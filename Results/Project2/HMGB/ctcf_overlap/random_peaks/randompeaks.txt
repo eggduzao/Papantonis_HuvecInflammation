@@ -1,0 +1,6 @@
+
+bedtools random -l 2 -n 45315 -g /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered | cut -f 1,2,3 | sort -k1,1 -k2,2n > BroadInstitute_HUVEC_CTCF.bed
+bedtools random -l 2 -n 48499 -g /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered | cut -f 1,2,3 | sort -k1,1 -k2,2n  > UTA_HUVEC_CTCF.bed
+bedtools random -l 2 -n 52875 -g /hpcwork/izkf/projects/TfbsPrediction/Data/HG19/hg19.chrom.sizes.filtered | cut -f 1,2,3 | sort -k1,1 -k2,2n  > UW_HUVEC_CTCF.bed
+
+

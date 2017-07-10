@@ -1,0 +1,15 @@
+name	type	file
+JDP_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP_FP.bed
+JDP+NFKB_with_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_with_FP.bed
+JDP+NFKB_with_clust1_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_with_clust1_FP.bed
+JDP+NFKB_with_clust2_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_with_clust2_FP.bed
+JDP+NFKB_with_clust3_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_with_clust3_FP.bed
+JDP+NFKB_with_clust4_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_with_clust4_FP.bed
+JDP+NFKB_with_clust5_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_with_clust5_FP.bed
+JDP+NFKB_wo_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_wo_FP.bed
+JDP+NFKB_wo_clust1_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_wo_clust1_FP.bed
+JDP+NFKB_wo_clust2_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_wo_clust2_FP.bed
+JDP+NFKB_wo_clust3_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_wo_clust3_FP.bed
+JDP+NFKB_wo_clust4_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_wo_clust4_FP.bed
+JDP+NFKB_wo_clust5_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKB_wo_clust5_FP.bed
+JDP+FOS+NFKB_with_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+FOS+NFKB_with_FP.bed

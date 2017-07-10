@@ -1,0 +1,78 @@
+Invoking:
+  getsize wo/wo_1000.fa 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.007196
+Invoking:
+  fasta-most -min 50 < wo/wo_1000.fa 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.035007
+Invoking:
+  fasta-center -dna -len 100 < wo/wo_1000.fa 1> wo/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.043964
+Invoking:
+  fasta-shuffle-letters wo/seqs-centered wo/seqs-shuffled -kmer 2 -tag -dinuc -dna -seed 1
+Finished invoke:
+  name: shuffle_seqs  status: 0  time: 0.004588
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 1 wo/wo_1000.fa wo/background
+Finished invoke:
+  name: bg  status: 0  time: 0.004331
+Invoking:
+  meme wo/seqs-centered -oc wo/meme_out -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile wo/background -dna -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 549.463178
+Invoking:
+  dreme -v 1 -oc wo/dreme_out -png -dna -p wo/seqs-centered -n wo/seqs-shuffled
+Finished invoke:
+  name: dreme  status: 0  time: 21.651923
+Invoking:
+  centrimo -seqlen 986 -verbosity 1 -oc wo/centrimo_out -bfile wo/background wo/wo_1000.fa wo/meme_out/meme.xml wo/dreme_out/dreme.xml /home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 1.007955
+Invoking:
+  tomtom -verbosity 1 -oc wo/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile wo/background wo/meme_out/meme.xml /home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 5.216069
+Invoking:
+  tomtom -verbosity 1 -oc wo/dreme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile wo/background wo/dreme_out/dreme.xml /home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme
+Finished invoke:
+  name: dreme_tomtom  status: 0  time: 0.404992
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 wo/combined.meme wo/combined.meme 1> wo/motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 0.094447
+Invoking:
+  spamo -verbosity 1 -oc wo/spamo_out_1 -bgfile wo/background -primary 1 wo/wo_1000.fa wo/meme_out/meme.xml wo/meme_out/meme.xml wo/dreme_out/dreme.xml /home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme
+Finished invoke:
+  name: spamo1  status: 0  time: 1.706604
+Invoking:
+  spamo -verbosity 1 -oc wo/spamo_out_2 -bgfile wo/background -primary 2 wo/wo_1000.fa wo/meme_out/meme.xml wo/meme_out/meme.xml wo/dreme_out/dreme.xml /home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme
+Finished invoke:
+  name: spamo2  status: 0  time: 9.581015
+Invoking:
+  spamo -verbosity 1 -oc wo/spamo_out_3 -bgfile wo/background -primary GGAADY wo/wo_1000.fa wo/dreme_out/dreme.xml wo/meme_out/meme.xml wo/dreme_out/dreme.xml /home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme
+Finished invoke:
+  name: spamo3  status: 0  time: 17.787417
+Invoking:
+  spamo -verbosity 1 -oc wo/spamo_out_4 -bgfile wo/background -primary TGACTCA wo/wo_1000.fa wo/dreme_out/dreme.xml wo/meme_out/meme.xml wo/dreme_out/dreme.xml /home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme
+Finished invoke:
+  name: spamo4  status: 0  time: 6.619549
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc wo/fimo_out_1 --bgfile wo/background --motif 1 wo/meme_out/meme.xml wo/wo_1000.fa
+Finished invoke:
+  name: fimo1  status: 0  time: 0.211871
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc wo/fimo_out_2 --bgfile wo/background --motif 2 wo/meme_out/meme.xml wo/wo_1000.fa
+Finished invoke:
+  name: fimo2  status: 0  time: 0.228246
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc wo/fimo_out_3 --bgfile wo/background --motif GGAADY wo/dreme_out/dreme.xml wo/wo_1000.fa
+Finished invoke:
+  name: fimo3  status: 0  time: 0.144351
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc wo/fimo_out_4 --bgfile wo/background --motif TGACTCA wo/dreme_out/dreme.xml wo/wo_1000.fa
+Finished invoke:
+  name: fimo4  status: 0  time: 0.153285
+Writing output
+Done

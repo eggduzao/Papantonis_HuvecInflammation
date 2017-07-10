@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 20851899: <MM_HU_SP> in cluster <rcc> Done
+
+Job <MM_HU_SP> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_motifmatch> was used as the working directory.
+Started at Mon Mar 30 15:16:49 2015
+Results reported on Mon Mar 30 15:36:17 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./motifAnalysis_pipeline.zsh --matching --organism hg18 --fpr 0.0001 --precision 10000 --pseudocounts 0.1 --rand-proportion 0.001 --output-location /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_motifmatch/result/spp/ --bigbed /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_motifmatch/exp_mat/spp.txt
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1139.21 sec.
+    Max Memory :                                 379 MB
+    Average Memory :                             367.63 MB
+    Total Requested Memory :                     24000.00 MB
+    Delta Memory :                               23621.00 MB
+    Max Processes :                              5
+    Max Threads :                                6
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <MM_HU_SP_err.txt> for stderr output of this job.
+

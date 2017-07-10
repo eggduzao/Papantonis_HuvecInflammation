@@ -1,0 +1,104 @@
+Time: 2015-03-30 18:50:00
+User: egg
+Project: /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/statistics/result/peakseq_jaccard/
+Title: jaccard_test
+
+Command:
+   $ /home/egg/Projects/RGT/Results/Usage/RGT_Viz/Installation/bin//rgt-viz jaccard -r ./peakseq_reference.txt -q ./peakseq_query.txt /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/statistics/result/peakseq_jaccard/ -rt 100
+
+
+Jaccard Test
+Reference	Query	Repeats	True_Jaccard_index	p-value	Time
+all	broad_huvec_ctcf	x100	0.0127	0	0:22:24
+all	duke_huvec_ctcf	x100	0.0125	0	0:23:31
+all	sydh_huvec_fos	x100	0.0561	0	0:23:15
+all	sydh_huvec_gata2	x100	0.0508	0	0:20:36
+all	sydh_huvec_jun	x100	0.0565	0	0:19:04
+all	sydh_huvec_max	x100	0.0224	0	0:16:15
+all	uw_huvec_ctcf	x100	0.0170	0	0:23:12
+with	broad_huvec_ctcf	x100	0.0095	0	0:19:33
+with	duke_huvec_ctcf	x100	0.0083	0	0:21:02
+with	sydh_huvec_fos	x100	0.0255	0	0:20:51
+with	sydh_huvec_gata2	x100	0.0229	0	0:17:35
+with	sydh_huvec_jun	x100	0.0247	0	0:16:38
+with	sydh_huvec_max	x100	0.0192	0	0:11:40
+with	uw_huvec_ctcf	x100	0.0126	0	0:20:14
+with_clust1	broad_huvec_ctcf	x100	0.0015	0	0:11:46
+with_clust1	duke_huvec_ctcf	x100	0.0011	0	0:13:21
+with_clust1	sydh_huvec_fos	x100	0.0029	0	0:13:09
+with_clust1	sydh_huvec_gata2	x100	0.0033	0	0:10:09
+with_clust1	sydh_huvec_jun	x100	0.0034	0	0:07:59
+with_clust1	sydh_huvec_max	x100	0.0055	0	0:02:38
+with_clust1	uw_huvec_ctcf	x100	0.0019	0	0:13:08
+with_clust2	broad_huvec_ctcf	x100	0.0018	0	0:12:09
+with_clust2	duke_huvec_ctcf	x100	0.0013	0	0:13:38
+with_clust2	sydh_huvec_fos	x100	0.0036	0	0:14:46
+with_clust2	sydh_huvec_gata2	x100	0.0036	0	0:10:02
+with_clust2	sydh_huvec_jun	x100	0.0040	0	0:08:30
+with_clust2	sydh_huvec_max	x100	0.0072	0	0:02:56
+with_clust2	uw_huvec_ctcf	x100	0.0026	0	0:13:34
+with_clust3	broad_huvec_ctcf	x100	0.0032	0	0:19:38
+with_clust3	duke_huvec_ctcf	x100	0.0028	0	0:21:37
+with_clust3	sydh_huvec_fos	x100	0.0108	0	0:21:06
+with_clust3	sydh_huvec_gata2	x100	0.0121	0	0:18:28
+with_clust3	sydh_huvec_jun	x100	0.0144	0	0:15:14
+with_clust3	sydh_huvec_max	x100	0.0135	0	0:08:35
+with_clust3	uw_huvec_ctcf	x100	0.0040	0	0:20:11
+with_clust4	broad_huvec_ctcf	x100	0.0034	0	0:14:14
+with_clust4	duke_huvec_ctcf	x100	0.0028	0	0:16:12
+with_clust4	sydh_huvec_fos	x100	0.0069	0	0:15:47
+with_clust4	sydh_huvec_gata2	x100	0.0067	0	0:13:09
+with_clust4	sydh_huvec_jun	x100	0.0085	0	0:11:02
+with_clust4	sydh_huvec_max	x100	0.0190	0	0:05:36
+with_clust4	uw_huvec_ctcf	x100	0.0047	0	0:15:15
+with_clust5	broad_huvec_ctcf	x100	0.0032	0	0:20:09
+with_clust5	duke_huvec_ctcf	x100	0.0029	0	0:22:01
+with_clust5	sydh_huvec_fos	x100	0.0091	0	0:21:36
+with_clust5	sydh_huvec_gata2	x100	0.0091	0	0:18:11
+with_clust5	sydh_huvec_jun	x100	0.0106	0	0:17:03
+with_clust5	sydh_huvec_max	x100	0.0080	0	0:07:54
+with_clust5	uw_huvec_ctcf	x100	0.0040	0	0:21:29
+wo	broad_huvec_ctcf	x100	0.0078	0	0:25:21
+wo	duke_huvec_ctcf	x100	0.0081	0	0:25:49
+wo	sydh_huvec_fos	x100	0.0474	0	0:25:03
+wo	sydh_huvec_gata2	x100	0.0507	0	0:21:53
+wo	sydh_huvec_jun	x100	0.0612	0	0:20:55
+wo	sydh_huvec_max	x100	0.0216	0	0:15:22
+wo	uw_huvec_ctcf	x100	0.0100	0	0:24:22
+wo_clust1	broad_huvec_ctcf	x100	0.0014	0	0:16:11
+wo_clust1	duke_huvec_ctcf	x100	0.0013	0	0:17:24
+wo_clust1	sydh_huvec_fos	x100	0.0051	0	0:17:29
+wo_clust1	sydh_huvec_gata2	x100	0.0062	0	0:13:41
+wo_clust1	sydh_huvec_jun	x100	0.0086	0	0:12:24
+wo_clust1	sydh_huvec_max	x100	0.0100	0	0:04:35
+wo_clust1	uw_huvec_ctcf	x100	0.0018	0	0:16:58
+wo_clust2	broad_huvec_ctcf	x100	0.0006	0	0:15:08
+wo_clust2	duke_huvec_ctcf	x100	0.0007	0	0:17:14
+wo_clust2	sydh_huvec_fos	x100	0.0037	0	0:16:44
+wo_clust2	sydh_huvec_gata2	x100	0.0043	0	0:12:24
+wo_clust2	sydh_huvec_jun	x100	0.0059	0	0:10:07
+wo_clust2	sydh_huvec_max	x100	0.0042	0	0:03:29
+wo_clust2	uw_huvec_ctcf	x100	0.0009	0	0:16:49
+wo_clust3	broad_huvec_ctcf	x100	0.0018	0	0:20:28
+wo_clust3	duke_huvec_ctcf	x100	0.0017	0	0:21:56
+wo_clust3	sydh_huvec_fos	x100	0.0102	0	0:21:13
+wo_clust3	sydh_huvec_gata2	x100	0.0137	0	0:18:01
+wo_clust3	sydh_huvec_jun	x100	0.0182	0	0:14:09
+wo_clust3	sydh_huvec_max	x100	0.0117	0	0:06:00
+wo_clust3	uw_huvec_ctcf	x100	0.0021	0	0:22:16
+wo_clust4	broad_huvec_ctcf	x100	0.0023	0	0:19:20
+wo_clust4	duke_huvec_ctcf	x100	0.0022	0	0:21:21
+wo_clust4	sydh_huvec_fos	x100	0.0099	0	0:22:11
+wo_clust4	sydh_huvec_gata2	x100	0.0125	0	0:17:58
+wo_clust4	sydh_huvec_jun	x100	0.0158	0	0:15:05
+wo_clust4	sydh_huvec_max	x100	0.0193	0	0:06:27
+wo_clust4	uw_huvec_ctcf	x100	0.0032	0	0:20:52
+wo_clust5	broad_huvec_ctcf	x100	0.0044	0	0:23:41
+wo_clust5	duke_huvec_ctcf	x100	0.0045	0	0:24:56
+wo_clust5	sydh_huvec_fos	x100	0.0299	0	0:25:26
+wo_clust5	sydh_huvec_gata2	x100	0.0349	0	0:22:01
+wo_clust5	sydh_huvec_jun	x100	0.0443	0	0:20:30
+wo_clust5	sydh_huvec_max	x100	0.0136	0	0:13:46
+wo_clust5	uw_huvec_ctcf	x100	0.0051	0	0:23:45
+
+Total running time is : 1 day, 1:18:55

@@ -1,0 +1,37 @@
+Sender: LSF System <lsfadmin@linuxihbc45>
+Subject: Job 26193997: <ME_JDP2_vs_random> in cluster <rcc> Done
+
+Job <ME_JDP2_vs_random> was submitted from host <cluster> by user <eg474423> in cluster <rcc>.
+Job was executed on host(s) <linuxihbc45>, in queue <ih>, as user <eg474423> in cluster <rcc>.
+</home/eg474423> was used as the home directory.
+</work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2> was used as the working directory.
+Started at Thu Feb  4 23:05:06 2016
+Results reported on Thu Feb  4 23:41:52 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./motifAnalysis_pipeline.zsh --enrichment --organism hg18 --promoter-length 1000 --maximum-association-length 50000 --multiple-test-alpha 0.05 --processes 1 --output-location /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/result/JDP2_vs_random/ --print-thresh 1.0 --bigbed /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/exp_mat/ME_JDP2_vs_random.txt /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/result/JDP2_vs_random/
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2366.31 sec.
+    Max Memory :                                 2272 MB
+    Average Memory :                             1107.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               9728.00 MB
+    Max Processes :                              8
+    Max Threads :                                9
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <ME_JDP2_vs_random_err.txt> for stderr output of this job.
+

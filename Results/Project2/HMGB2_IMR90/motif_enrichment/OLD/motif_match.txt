@@ -1,0 +1,2 @@
+name	type	file
+IMR90_footprints	regions	/Users/egg/Projects/Papantonis_HuvecInflammation/Results/HMGB2_IMR90/motif_enrichment/footprints/IMR90_footprints.bed

@@ -1,0 +1,57 @@
+name	type	file	factor	cluster
+
+# BAMs
+#CTCF_BROAD1	reads	../bam/CTCF_BROAD.bam	CTCF_BROAD	1
+#CTCF_BROAD2	reads	../bam/CTCF_BROAD.bam	CTCF_BROAD	2
+#CTCF_BROAD3	reads	../bam/CTCF_BROAD.bam	CTCF_BROAD	3
+#CTCF_BROAD4	reads	../bam/CTCF_BROAD.bam	CTCF_BROAD	4
+#CTCF_BROAD5	reads	../bam/CTCF_BROAD.bam	CTCF_BROAD	5
+
+CTCF_UW1	reads	../bam/CTCF_UW.bam	CTCF_UW	1
+CTCF_UW2	reads	../bam/CTCF_UW.bam	CTCF_UW	2
+CTCF_UW3	reads	../bam/CTCF_UW.bam	CTCF_UW	3
+CTCF_UW4	reads	../bam/CTCF_UW.bam	CTCF_UW	4
+CTCF_UW5	reads	../bam/CTCF_UW.bam	CTCF_UW	5
+
+#CTCF_UTA1	reads	../bam/CTCF_UTA.bam	CTCF_UTA	1
+#CTCF_UTA2	reads	../bam/CTCF_UTA.bam	CTCF_UTA	2
+#CTCF_UTA3	reads	../bam/CTCF_UTA.bam	CTCF_UTA	3
+#CTCF_UTA4	reads	../bam/CTCF_UTA.bam	CTCF_UTA	4
+#CTCF_UTA5	reads	../bam/CTCF_UTA.bam	CTCF_UTA	5
+
+GATA2_SYDH1	reads	../bam/GATA2_SYDH.bam	GATA2_SYDH	1
+GATA2_SYDH2	reads	../bam/GATA2_SYDH.bam	GATA2_SYDH	2
+GATA2_SYDH3	reads	../bam/GATA2_SYDH.bam	GATA2_SYDH	3
+GATA2_SYDH4	reads	../bam/GATA2_SYDH.bam	GATA2_SYDH	4
+GATA2_SYDH5	reads	../bam/GATA2_SYDH.bam	GATA2_SYDH	5
+
+MAX_SYDH1	reads	../bam/MAX_SYDH.bam	MAX_SYDH	1
+MAX_SYDH2	reads	../bam/MAX_SYDH.bam	MAX_SYDH	2
+MAX_SYDH3	reads	../bam/MAX_SYDH.bam	MAX_SYDH	3
+MAX_SYDH4	reads	../bam/MAX_SYDH.bam	MAX_SYDH	4
+MAX_SYDH5	reads	../bam/MAX_SYDH.bam	MAX_SYDH	5
+
+FOS_SYDH1	reads	../bam/FOS_SYDH.bam	FOS_SYDH	1
+FOS_SYDH2	reads	../bam/FOS_SYDH.bam	FOS_SYDH	2
+FOS_SYDH3	reads	../bam/FOS_SYDH.bam	FOS_SYDH	3
+FOS_SYDH4	reads	../bam/FOS_SYDH.bam	FOS_SYDH	4
+FOS_SYDH5	reads	../bam/FOS_SYDH.bam	FOS_SYDH	5
+
+JUN_SYDH1	reads	../bam/JUN_SYDH.bam	JUN_SYDH	1
+JUN_SYDH2	reads	../bam/JUN_SYDH.bam	JUN_SYDH	2
+JUN_SYDH3	reads	../bam/JUN_SYDH.bam	JUN_SYDH	3
+JUN_SYDH4	reads	../bam/JUN_SYDH.bam	JUN_SYDH	4
+JUN_SYDH5	reads	../bam/JUN_SYDH.bam	JUN_SYDH	5
+
+
+#BEDs
+with_clust1	regions	../Results/bed_nfkb_enriched/footprints/with_clust1.bed	region	1
+with_clust2	regions	../Results/bed_nfkb_enriched/footprints/with_clust2.bed	region	2
+with_clust3	regions	../Results/bed_nfkb_enriched/footprints/with_clust3.bed	region	3
+with_clust4	regions	../Results/bed_nfkb_enriched/footprints/with_clust4.bed	region	4
+with_clust5	regions	../Results/bed_nfkb_enriched/footprints/with_clust5.bed	region	5
+wo_clust1	regions	../Results/bed_nfkb_enriched/footprints/wo_clust1.bed	region	1
+wo_clust2	regions	../Results/bed_nfkb_enriched/footprints/wo_clust2.bed	region	2
+wo_clust3	regions	../Results/bed_nfkb_enriched/footprints/wo_clust3.bed	region	3
+wo_clust4	regions	../Results/bed_nfkb_enriched/footprints/wo_clust4.bed	region	4
+wo_clust5	regions	../Results/bed_nfkb_enriched/footprints/wo_clust5.bed	region	5

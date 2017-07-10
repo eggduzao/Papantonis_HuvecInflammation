@@ -1,0 +1,7 @@
+http://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/peaks/jan2011/peakSeq/optimal/hub/peakSeq.optimal.wgEncodeBroadHistoneHuvecCtcfStdAlnRep0_vs_wgEncodeBroadHistoneHuvecControlStdAlnRep0.bb
+http://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/peaks/jan2011/peakSeq/optimal/hub/peakSeq.optimal.wgEncodeOpenChromChipHuvecCtcfAlnRep0_vs_wgEncodeOpenChromChipHuvecInputAlnRep1.bb
+http://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/peaks/jan2011/peakSeq/optimal/hub/peakSeq.optimal.wgEncodeSydhTfbsHuvecCfosUcdAlnRep0_vs_wgEncodeSydhTfbsHuvecInputUcdAlnRep1.bb
+http://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/peaks/jan2011/peakSeq/optimal/hub/peakSeq.optimal.wgEncodeSydhTfbsHuvecCjunStdAlnRep0_vs_wgEncodeSydhTfbsHuvecInputStdAlnRep0.bb
+http://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/peaks/jan2011/peakSeq/optimal/hub/peakSeq.optimal.wgEncodeSydhTfbsHuvecGata2UcdAlnRep0_vs_wgEncodeSydhTfbsHuvecInputUcdAlnRep1.bb
+http://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/peaks/jan2011/peakSeq/optimal/hub/peakSeq.optimal.wgEncodeSydhTfbsHuvecMaxStdAlnRep0_vs_wgEncodeSydhTfbsHuvecInputStdAlnRep0.bb
+http://ftp.ebi.ac.uk/pub/databases/ensembl/encode/integration_data_jan2011/byDataType/peaks/jan2011/peakSeq/optimal/hub/peakSeq.optimal.wgEncodeUwTfbsHuvecCtcfStdAlnRep0_vs_wgEncodeUwTfbsHuvecInputStdAlnRep1.bb

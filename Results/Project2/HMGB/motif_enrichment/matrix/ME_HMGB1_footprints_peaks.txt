@@ -1,0 +1,2 @@
+name	type	file
+HMGB1_footprints_peaks	regions	/home/egg/Projects/HuvecInflammation/Results/HMGB/motif_enrichment/input/HMGB1_footprints_peaks_hg19.bed

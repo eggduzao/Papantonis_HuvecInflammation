@@ -1,0 +1,25 @@
+Time: 2015-04-14 16:11:22
+User: joseph
+
+Command:
+	$ /usr/local/bin/rgt-viz heatmap em.txt -o HuvecInflammation -t Heatmap -s cluster
+Parameters:	Extend length:	2000
+		Read size:	200
+		Bin size:	100
+		Step size:	50
+		Center mode:	midpoint
+
+Step 1/4: Processing regions by given parameters
+    --- finished in 0.0 secs
+
+Step 2/4: Calculating the coverage to all reads and averaging
+    --- finished in 0:06:34 (h:m:s)
+
+Step 3/4: Sorting the data for heatmap
+    --- finished in 0:00:00 (h:m:s)
+
+Step 4/4: Plotting the heatmap
+    --- finished in 13.0 secs
+
+Total running time is : 0:06:47(H:M:S)
+

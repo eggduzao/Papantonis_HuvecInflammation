@@ -1,0 +1,14 @@
+name	type	file
+all	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/all.bed
+with	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/with.bed
+with_clust1	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/with_clust1.bed
+with_clust2	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/with_clust2.bed
+with_clust3	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/with_clust3.bed
+with_clust4	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/with_clust4.bed
+with_clust5	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/with_clust5.bed
+wo	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/wo.bed
+wo_clust1	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/wo_clust1.bed
+wo_clust2	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/wo_clust2.bed
+wo_clust3	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/wo_clust3.bed
+wo_clust4	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/wo_clust4.bed
+wo_clust5	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/bed_nfkb_enriched/original/wo_clust5.bed

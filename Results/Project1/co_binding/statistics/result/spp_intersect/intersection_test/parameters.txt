@@ -1,0 +1,103 @@
+Time: 2015-03-31 20:09:53
+User: egg
+Project: /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/statistics/result/spp_intersect/
+Title: intersection_test
+
+Command:
+   $ /home/egg/Projects/RGT/Results/Usage/RGT_Viz/Installation/bin//rgt-viz intersect -r ./spp_reference.txt -q ./spp_query.txt /work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/statistics/result/spp_intersect/
+
+
+Reference	sequence_number	Query	sequence_number	Number of Intersection
+all	8583	broad_huvec_ctcf	35953	1109
+all	8583	duke_huvec_ctcf	40336	936
+all	8583	sydh_huvec_fos	39443	4056
+all	8583	sydh_huvec_gata2	24273	3015
+all	8583	sydh_huvec_jun	22179	3441
+all	8583	sydh_huvec_max	6813	1433
+all	8583	uw_huvec_ctcf	37438	1292
+with	3762	broad_huvec_ctcf	35953	584
+with	3762	duke_huvec_ctcf	40336	471
+with	3762	sydh_huvec_fos	39443	1413
+with	3762	sydh_huvec_gata2	24273	938
+with	3762	sydh_huvec_jun	22179	1086
+with	3762	sydh_huvec_max	6813	622
+with	3762	uw_huvec_ctcf	37438	704
+with_clust1	283	broad_huvec_ctcf	35953	56
+with_clust1	283	duke_huvec_ctcf	40336	42
+with_clust1	283	sydh_huvec_fos	39443	111
+with_clust1	283	sydh_huvec_gata2	24273	74
+with_clust1	283	sydh_huvec_jun	22179	69
+with_clust1	283	sydh_huvec_max	6813	53
+with_clust1	283	uw_huvec_ctcf	37438	68
+with_clust2	303	broad_huvec_ctcf	35953	70
+with_clust2	303	duke_huvec_ctcf	40336	48
+with_clust2	303	sydh_huvec_fos	39443	134
+with_clust2	303	sydh_huvec_gata2	24273	78
+with_clust2	303	sydh_huvec_jun	22179	97
+with_clust2	303	sydh_huvec_max	6813	63
+with_clust2	303	uw_huvec_ctcf	37438	96
+with_clust3	1142	broad_huvec_ctcf	35953	141
+with_clust3	1142	duke_huvec_ctcf	40336	127
+with_clust3	1142	sydh_huvec_fos	39443	474
+with_clust3	1142	sydh_huvec_gata2	24273	342
+with_clust3	1142	sydh_huvec_jun	22179	394
+with_clust3	1142	sydh_huvec_max	6813	185
+with_clust3	1142	uw_huvec_ctcf	37438	170
+with_clust4	706	broad_huvec_ctcf	35953	156
+with_clust4	706	duke_huvec_ctcf	40336	117
+with_clust4	706	sydh_huvec_fos	39443	287
+with_clust4	706	sydh_huvec_gata2	24273	181
+with_clust4	706	sydh_huvec_jun	22179	227
+with_clust4	706	sydh_huvec_max	6813	207
+with_clust4	706	uw_huvec_ctcf	37438	190
+with_clust5	1328	broad_huvec_ctcf	35953	161
+with_clust5	1328	duke_huvec_ctcf	40336	137
+with_clust5	1328	sydh_huvec_fos	39443	407
+with_clust5	1328	sydh_huvec_gata2	24273	263
+with_clust5	1328	sydh_huvec_jun	22179	299
+with_clust5	1328	sydh_huvec_max	6813	114
+with_clust5	1328	uw_huvec_ctcf	37438	180
+wo	4821	broad_huvec_ctcf	35953	525
+wo	4821	duke_huvec_ctcf	40336	465
+wo	4821	sydh_huvec_fos	39443	2643
+wo	4821	sydh_huvec_gata2	24273	2077
+wo	4821	sydh_huvec_jun	22179	2355
+wo	4821	sydh_huvec_max	6813	811
+wo	4821	uw_huvec_ctcf	37438	588
+wo_clust1	439	broad_huvec_ctcf	35953	62
+wo_clust1	439	duke_huvec_ctcf	40336	47
+wo_clust1	439	sydh_huvec_fos	39443	208
+wo_clust1	439	sydh_huvec_gata2	24273	156
+wo_clust1	439	sydh_huvec_jun	22179	180
+wo_clust1	439	sydh_huvec_max	6813	98
+wo_clust1	439	uw_huvec_ctcf	37438	75
+wo_clust2	341	broad_huvec_ctcf	35953	32
+wo_clust2	341	duke_huvec_ctcf	40336	29
+wo_clust2	341	sydh_huvec_fos	39443	148
+wo_clust2	341	sydh_huvec_gata2	24273	109
+wo_clust2	341	sydh_huvec_jun	22179	133
+wo_clust2	341	sydh_huvec_max	6813	45
+wo_clust2	341	uw_huvec_ctcf	37438	36
+wo_clust3	724	broad_huvec_ctcf	35953	74
+wo_clust3	724	duke_huvec_ctcf	40336	70
+wo_clust3	724	sydh_huvec_fos	39443	439
+wo_clust3	724	sydh_huvec_gata2	24273	358
+wo_clust3	724	sydh_huvec_jun	22179	409
+wo_clust3	724	sydh_huvec_max	6813	129
+wo_clust3	724	uw_huvec_ctcf	37438	77
+wo_clust4	771	broad_huvec_ctcf	35953	112
+wo_clust4	771	duke_huvec_ctcf	40336	95
+wo_clust4	771	sydh_huvec_fos	39443	425
+wo_clust4	771	sydh_huvec_gata2	24273	335
+wo_clust4	771	sydh_huvec_jun	22179	382
+wo_clust4	771	sydh_huvec_max	6813	215
+wo_clust4	771	uw_huvec_ctcf	37438	137
+wo_clust5	2546	broad_huvec_ctcf	35953	245
+wo_clust5	2546	duke_huvec_ctcf	40336	224
+wo_clust5	2546	sydh_huvec_fos	39443	1423
+wo_clust5	2546	sydh_huvec_gata2	24273	1119
+wo_clust5	2546	sydh_huvec_jun	22179	1251
+wo_clust5	2546	sydh_huvec_max	6813	324
+wo_clust5	2546	uw_huvec_ctcf	37438	263
+
+Total running time is : 0:01:51
