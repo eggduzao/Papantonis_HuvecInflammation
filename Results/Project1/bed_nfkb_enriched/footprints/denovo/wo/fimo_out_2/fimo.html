@@ -1,0 +1,1863 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body bgcolor="#D5F0FF">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 4.11.0, (Release date: Thu Nov 26 17:48:49 2015 +1000)
+</p>
+<p>
+For further information on how to interpret these results
+or to get a copy of the FIMO software please access
+<a href="http://meme.nbcr.net">http://meme.nbcr.net</a></p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE wo/wo_1000.fa
+  <br />
+  Database contains 0 sequences, 0 residues
+</p>
+<p>
+  MOTIFS wo/dreme_out/dreme.xml (DNA)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">TTCCB</td>
+        <td style="text-align:right;padding-left: 1em;">5</td>
+        <td style="text-align:left;padding-left: 1em;">TTCCT</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">TGACWCA</td>
+        <td style="text-align:right;padding-left: 1em;">7</td>
+        <td style="text-align:left;padding-left: 1em;">TGACTCA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">GGGGCGGD</td>
+        <td style="text-align:right;padding-left: 1em;">8</td>
+        <td style="text-align:left;padding-left: 1em;">GGGGCGGG</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">KCCDGGA</td>
+        <td style="text-align:right;padding-left: 1em;">7</td>
+        <td style="text-align:left;padding-left: 1em;">GCCGGGA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">GTCAY</td>
+        <td style="text-align:right;padding-left: 1em;">5</td>
+        <td style="text-align:left;padding-left: 1em;">GTCAC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">CAGCY</td>
+        <td style="text-align:right;padding-left: 1em;">5</td>
+        <td style="text-align:left;padding-left: 1em;">CAGCC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">AMATA</td>
+        <td style="text-align:right;padding-left: 1em;">5</td>
+        <td style="text-align:left;padding-left: 1em;">AAATA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">CCWGCGCA</td>
+        <td style="text-align:right;padding-left: 1em;">8</td>
+        <td style="text-align:left;padding-left: 1em;">CCTGCGCA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">AAACAAHA</td>
+        <td style="text-align:right;padding-left: 1em;">8</td>
+        <td style="text-align:left;padding-left: 1em;">AAACAACA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">CGCCRTC</td>
+        <td style="text-align:right;padding-left: 1em;">7</td>
+        <td style="text-align:left;padding-left: 1em;">CGCCGTC</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (wo/background):
+<br/>
+
+A 0.204 C 0.296 G 0.296 T 0.204 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 164 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+tab-delimited plain text output file
+<a href="fimo.txt">fimo.txt</a>, 
+the GFF file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The p-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing p-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">1143251</td>
+      <td style="text-align:left;">1143257</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">7282158</td>
+      <td style="text-align:left;">7282164</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8060053</td>
+      <td style="text-align:left;">8060059</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8060053</td>
+      <td style="text-align:left;">8060059</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8104171</td>
+      <td style="text-align:left;">8104177</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">8194706</td>
+      <td style="text-align:left;">8194712</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8856410</td>
+      <td style="text-align:left;">8856416</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8856410</td>
+      <td style="text-align:left;">8856416</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8856410</td>
+      <td style="text-align:left;">8856416</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8856424</td>
+      <td style="text-align:left;">8856430</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8856424</td>
+      <td style="text-align:left;">8856430</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">11788545</td>
+      <td style="text-align:left;">11788551</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">11788545</td>
+      <td style="text-align:left;">11788551</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">12144655</td>
+      <td style="text-align:left;">12144661</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">12144655</td>
+      <td style="text-align:left;">12144661</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">12144655</td>
+      <td style="text-align:left;">12144661</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">12463573</td>
+      <td style="text-align:left;">12463579</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">12463573</td>
+      <td style="text-align:left;">12463579</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">12463573</td>
+      <td style="text-align:left;">12463579</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">12587117</td>
+      <td style="text-align:left;">12587123</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">12587117</td>
+      <td style="text-align:left;">12587123</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">12587117</td>
+      <td style="text-align:left;">12587123</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">15994299</td>
+      <td style="text-align:left;">15994305</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">16151983</td>
+      <td style="text-align:left;">16151989</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgactca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">17753270</td>
+      <td style="text-align:left;">17753276</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">19125913</td>
+      <td style="text-align:left;">19125919</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">21221549</td>
+      <td style="text-align:left;">21221555</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">21221549</td>
+      <td style="text-align:left;">21221555</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">21461058</td>
+      <td style="text-align:left;">21461064</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">21461058</td>
+      <td style="text-align:left;">21461064</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">21786170</td>
+      <td style="text-align:left;">21786176</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">23031279</td>
+      <td style="text-align:left;">23031285</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">23031319</td>
+      <td style="text-align:left;">23031325</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">23076112</td>
+      <td style="text-align:left;">23076118</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">23087964</td>
+      <td style="text-align:left;">23087970</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgactca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">23087964</td>
+      <td style="text-align:left;">23087970</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgactca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">24150803</td>
+      <td style="text-align:left;">24150809</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">24150803</td>
+      <td style="text-align:left;">24150809</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">24150803</td>
+      <td style="text-align:left;">24150809</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">24150862</td>
+      <td style="text-align:left;">24150868</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">26502272</td>
+      <td style="text-align:left;">26502278</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">31069626</td>
+      <td style="text-align:left;">31069632</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">31069626</td>
+      <td style="text-align:left;">31069632</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">31069626</td>
+      <td style="text-align:left;">31069632</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">31812133</td>
+      <td style="text-align:left;">31812139</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">31812133</td>
+      <td style="text-align:left;">31812139</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">31812245</td>
+      <td style="text-align:left;">31812251</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">32194318</td>
+      <td style="text-align:left;">32194324</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">32460221</td>
+      <td style="text-align:left;">32460227</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">32460221</td>
+      <td style="text-align:left;">32460227</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">33177964</td>
+      <td style="text-align:left;">33177970</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">33219506</td>
+      <td style="text-align:left;">33219512</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">33219506</td>
+      <td style="text-align:left;">33219512</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">33219506</td>
+      <td style="text-align:left;">33219512</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">36624488</td>
+      <td style="text-align:left;">36624494</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">36624841</td>
+      <td style="text-align:left;">36624847</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">36624841</td>
+      <td style="text-align:left;">36624847</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">36624959</td>
+      <td style="text-align:left;">36624965</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">38237980</td>
+      <td style="text-align:left;">38237986</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">38237980</td>
+      <td style="text-align:left;">38237986</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">39422191</td>
+      <td style="text-align:left;">39422197</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39430572</td>
+      <td style="text-align:left;">39430578</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39430572</td>
+      <td style="text-align:left;">39430578</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39430572</td>
+      <td style="text-align:left;">39430578</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39630575</td>
+      <td style="text-align:left;">39630581</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39637010</td>
+      <td style="text-align:left;">39637016</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39637010</td>
+      <td style="text-align:left;">39637016</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">41114202</td>
+      <td style="text-align:left;">41114208</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">41114202</td>
+      <td style="text-align:left;">41114208</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">41140451</td>
+      <td style="text-align:left;">41140457</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">41140451</td>
+      <td style="text-align:left;">41140457</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">43179425</td>
+      <td style="text-align:left;">43179431</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">43470513</td>
+      <td style="text-align:left;">43470519</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55549063</td>
+      <td style="text-align:left;">55549069</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55549063</td>
+      <td style="text-align:left;">55549069</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55667432</td>
+      <td style="text-align:left;">55667438</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55667432</td>
+      <td style="text-align:left;">55667438</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">55667740</td>
+      <td style="text-align:left;">55667746</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">55667740</td>
+      <td style="text-align:left;">55667746</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">55667740</td>
+      <td style="text-align:left;">55667746</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">58784958</td>
+      <td style="text-align:left;">58784964</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">58784958</td>
+      <td style="text-align:left;">58784964</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">58993772</td>
+      <td style="text-align:left;">58993778</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">58993772</td>
+      <td style="text-align:left;">58993778</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">58993772</td>
+      <td style="text-align:left;">58993778</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">59087257</td>
+      <td style="text-align:left;">59087263</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">59087257</td>
+      <td style="text-align:left;">59087263</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">59121731</td>
+      <td style="text-align:left;">59121737</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">59834760</td>
+      <td style="text-align:left;">59834766</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">59834760</td>
+      <td style="text-align:left;">59834766</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">65136415</td>
+      <td style="text-align:left;">65136421</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65136514</td>
+      <td style="text-align:left;">65136520</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65136514</td>
+      <td style="text-align:left;">65136520</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">66802720</td>
+      <td style="text-align:left;">66802726</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">67864945</td>
+      <td style="text-align:left;">67864951</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">67864945</td>
+      <td style="text-align:left;">67864951</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">67864945</td>
+      <td style="text-align:left;">67864951</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">67865052</td>
+      <td style="text-align:left;">67865058</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">67925094</td>
+      <td style="text-align:left;">67925100</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">67939176</td>
+      <td style="text-align:left;">67939182</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">67939176</td>
+      <td style="text-align:left;">67939182</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">67939176</td>
+      <td style="text-align:left;">67939182</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">68128390</td>
+      <td style="text-align:left;">68128396</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgactca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">68128390</td>
+      <td style="text-align:left;">68128396</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgactca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">84744895</td>
+      <td style="text-align:left;">84744901</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">84744895</td>
+      <td style="text-align:left;">84744901</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">84842271</td>
+      <td style="text-align:left;">84842277</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">84842271</td>
+      <td style="text-align:left;">84842277</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">85536377</td>
+      <td style="text-align:left;">85536383</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">85536377</td>
+      <td style="text-align:left;">85536383</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">85582141</td>
+      <td style="text-align:left;">85582147</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">85582141</td>
+      <td style="text-align:left;">85582147</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">85686898</td>
+      <td style="text-align:left;">85686904</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">85686898</td>
+      <td style="text-align:left;">85686904</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">94780106</td>
+      <td style="text-align:left;">94780112</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">100682410</td>
+      <td style="text-align:left;">100682416</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">100835402</td>
+      <td style="text-align:left;">100835408</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgactca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">100835402</td>
+      <td style="text-align:left;">100835408</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgactca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">100835402</td>
+      <td style="text-align:left;">100835408</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgactca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">109541674</td>
+      <td style="text-align:left;">109541680</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">109541674</td>
+      <td style="text-align:left;">109541680</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">109542680</td>
+      <td style="text-align:left;">109542686</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">112738416</td>
+      <td style="text-align:left;">112738422</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">112738416</td>
+      <td style="text-align:left;">112738422</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">112738416</td>
+      <td style="text-align:left;">112738422</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">113049109</td>
+      <td style="text-align:left;">113049115</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">113049109</td>
+      <td style="text-align:left;">113049115</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">113049646</td>
+      <td style="text-align:left;">113049652</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">148398149</td>
+      <td style="text-align:left;">148398155</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148817790</td>
+      <td style="text-align:left;">148817796</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148817790</td>
+      <td style="text-align:left;">148817796</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">148844047</td>
+      <td style="text-align:left;">148844053</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">148850788</td>
+      <td style="text-align:left;">148850794</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">148850788</td>
+      <td style="text-align:left;">148850794</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148850884</td>
+      <td style="text-align:left;">148850890</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148850884</td>
+      <td style="text-align:left;">148850890</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148852753</td>
+      <td style="text-align:left;">148852759</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148852753</td>
+      <td style="text-align:left;">148852759</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148852784</td>
+      <td style="text-align:left;">148852790</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148852784</td>
+      <td style="text-align:left;">148852790</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0733</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACTCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">8120535</td>
+      <td style="text-align:left;">8120541</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">8120535</td>
+      <td style="text-align:left;">8120541</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">8120535</td>
+      <td style="text-align:left;">8120541</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">9384678</td>
+      <td style="text-align:left;">9384684</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">9384678</td>
+      <td style="text-align:left;">9384684</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">19125828</td>
+      <td style="text-align:left;">19125834</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">19125828</td>
+      <td style="text-align:left;">19125834</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">26502356</td>
+      <td style="text-align:left;">26502362</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39630508</td>
+      <td style="text-align:left;">39630514</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39630508</td>
+      <td style="text-align:left;">39630514</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39630508</td>
+      <td style="text-align:left;">39630514</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">45039127</td>
+      <td style="text-align:left;">45039133</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">45039127</td>
+      <td style="text-align:left;">45039133</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">66766244</td>
+      <td style="text-align:left;">66766250</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">tgacaca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">66772305</td>
+      <td style="text-align:left;">66772311</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">66772305</td>
+      <td style="text-align:left;">66772311</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">66772305</td>
+      <td style="text-align:left;">66772311</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">66802831</td>
+      <td style="text-align:left;">66802837</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">67857131</td>
+      <td style="text-align:left;">67857137</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93863904</td>
+      <td style="text-align:left;">93863910</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">93863904</td>
+      <td style="text-align:left;">93863910</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">94276877</td>
+      <td style="text-align:left;">94276883</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">94276877</td>
+      <td style="text-align:left;">94276883</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">TGACWCA</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">113044807</td>
+      <td style="text-align:left;">113044813</td>
+      <td style="text-align:left;">8.97e-05</td>
+      <td style="text-align:left;">0.125</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TGACACA</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+/home/ivan/meme/bin/fimo --parse-genomic-coord --verbosity 1 --oc wo/fimo_out_2 --bgfile wo/background --motif TGACWCA wo/dreme_out/dreme.xml wo/wo_1000.fa
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = wo/fimo_out_2</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = wo/dreme_out/dreme.xml</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = wo/wo_1000.fa</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = wo/background</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = DNA</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = true</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

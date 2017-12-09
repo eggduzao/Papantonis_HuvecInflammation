@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="4.11.0" release="Thu Nov 26 17:48:49 2015 +1000">
+  <model>
+    <command_line>tomtom -verbosity 1 -oc both/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile both/background both/meme_out/meme.xml /home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme</command_line>
+    <distance_measure value="pearson"/>
+    <threshold type="evalue">1</threshold>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background from="file" A="0.2177" C="0.2823" G="0.2823" T="0.2177" file="both/background"/>
+    <host>Ivan</host>
+    <when>Thu Jul 14 17:22:40 2016</when>
+  </model>
+  <query_dbs>
+    <db source="both/meme_out/meme.xml" name="meme" loaded="3" excluded="0" last_mod_date="Thu Jul 14 17:21:18 2016"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="/home/ivan/app/meme_4.11.0/motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme" name="JASPAR CORE 2016 vertebrates" loaded="519" excluded="0" last_mod_date="Tue Mar 15 00:48:46 2016"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="1" alt="MEME" length="14" nsites="24" evalue="2.7e-022">
+      <pos A="0.166879" C="0.00117137" G="0.00117137" T="0.830779"/>
+      <pos A="0.125385" C="0.374615" G="0.291628" T="0.208372"/>
+      <pos A="0.208372" C="0.0426655" G="0.623578" T="0.125385"/>
+      <pos A="0.913767" C="0.0841586" G="0.00117137" T="0.00090332"/>
+      <pos A="0.996754" C="0.00117137" G="0.00117137" T="0.00090332"/>
+      <pos A="0.00090332" C="0.00117137" G="0.00117137" T="0.996754"/>
+      <pos A="0.00090332" C="0.00117137" G="0.872541" T="0.125385"/>
+      <pos A="0.249866" C="0.00117137" G="0.748059" T="0.00090332"/>
+      <pos A="0.95526" C="0.00117137" G="0.0426655" T="0.00090332"/>
+      <pos A="0.913767" C="0.0426655" G="0.00117137" T="0.0423974"/>
+      <pos A="0.0423974" C="0.00117137" G="0.0841586" T="0.872273"/>
+      <pos A="0.332853" C="0.665072" G="0.00117137" T="0.00090332"/>
+      <pos A="0.913767" C="0.00117137" G="0.0426655" T="0.0423974"/>
+      <pos A="0.208372" C="0.00117137" G="0.00117137" T="0.789285"/>
+    </motif>
+    <motif db="0" id="2" alt="MEME" length="6" nsites="227" evalue="4.4e-037">
+      <pos A="0.999656" C="0.000124306" G="0.000124306" T="9.58609e-05"/>
+      <pos A="9.58609e-05" C="0.000124306" G="0.999684" T="9.58609e-05"/>
+      <pos A="0.264296" C="0.000124306" G="0.735483" T="9.58609e-05"/>
+      <pos A="0.999656" C="0.000124306" G="0.000124306" T="9.58609e-05"/>
+      <pos A="0.999656" C="0.000124306" G="0.000124306" T="9.58609e-05"/>
+      <pos A="0.541707" C="0.000124306" G="0.458073" T="9.58609e-05"/>
+    </motif>
+    <motif db="0" id="3" alt="MEME" length="11" nsites="13" evalue="6.1e-005">
+      <pos A="0.994028" C="0.00215496" G="0.00215496" T="0.00166183"/>
+      <pos A="0.00166183" C="0.00215496" G="0.0784908" T="0.917692"/>
+      <pos A="0.00166183" C="0.689178" G="0.0784908" T="0.230669"/>
+      <pos A="0.0779976" C="0.00215496" G="0.918186" T="0.00166183"/>
+      <pos A="0.994028" C="0.00215496" G="0.00215496" T="0.00166183"/>
+      <pos A="0.994028" C="0.00215496" G="0.00215496" T="0.00166183"/>
+      <pos A="0.00166183" C="0.00215496" G="0.00215496" T="0.994028"/>
+      <pos A="0.0779976" C="0.00215496" G="0.918186" T="0.00166183"/>
+      <pos A="0.00166183" C="0.00215496" G="0.918186" T="0.0779976"/>
+      <pos A="0.994028" C="0.00215496" G="0.00215496" T="0.00166183"/>
+      <pos A="0.994028" C="0.00215496" G="0.00215496" T="0.00166183"/>
+    </motif>
+  </queries>
+  <targets>
+  </targets>
+  <matches>
+  </matches>
+  <runtime cycles="964000" seconds="0.964"/>
+</tomtom>

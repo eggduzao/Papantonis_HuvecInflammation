@@ -1,0 +1,69 @@
+<dreme version="4.11.0" release="Thu Nov 26 17:48:49 2015 +1000">
+  <model>
+    <command_line>dreme -v 1 -oc wo/dreme_out -png -dna -p wo/seqs-centered -n wo/seqs-shuffled</command_line>
+    <positives name="seqs-centered" count="500" file="wo/seqs-centered" last_mod_date="Thu Jul 14 15:09:26 CEST 2016" />
+    <negatives name="seqs-shuffled" count="500" from="file" file="wo/seqs-shuffled" last_mod_date="Thu Jul 14 15:09:26 CEST 2016" />
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background A="0.225" C="0.274" G="0.273" T="0.227" from="dataset"/>
+    <stop evalue="0.05"/>
+    <ngen>100</ngen>
+    <add_pv_thresh>0.01</add_pv_thresh>
+    <seed>1</seed>
+    <host>Ivan</host>
+    <when>Thu Jul 14 15:18:36 CEST 2016</when>
+  </model>
+  <motifs>
+    <motif id="m01" seq="GGAADY" length="6" nsites="349" p="242" n="118" pvalue="1.6e-016" evalue="4.9e-012" unerased_evalue="4.9e-012">
+      <pos A="0.000000" C="0.000000" G="1.000000" T="0.000000"/>
+      <pos A="0.000000" C="0.000000" G="1.000000" T="0.000000"/>
+      <pos A="1.000000" C="0.000000" G="0.000000" T="0.000000"/>
+      <pos A="1.000000" C="0.000000" G="0.000000" T="0.000000"/>
+      <pos A="0.363897" C="0.000000" G="0.318052" T="0.318052"/>
+      <pos A="0.000000" C="0.515759" G="0.000000" T="0.484241"/>
+      <match seq="GGAAAT" p="66" n="21" pvalue="2.3e-007" evalue="7.1e-003"/>
+      <match seq="GGAAGT" p="53" n="21" pvalue="7.4e-005" evalue="2.2e+000"/>
+      <match seq="GGAATC" p="43" n="15" pvalue="1.0e-004" evalue="3.1e+000"/>
+      <match seq="GGAAAC" p="54" n="23" pvalue="1.6e-004" evalue="4.9e+000"/>
+      <match seq="GGAATT" p="43" n="17" pvalue="3.7e-004" evalue="1.1e+001"/>
+      <match seq="GGAAGC" p="51" n="29" pvalue="7.0e-003" evalue="2.1e+002"/>
+    </motif>
+    <motif id="m02" seq="TGACTCA" length="7" nsites="34" p="29" n="3" pvalue="9.1e-007" evalue="2.7e-002" unerased_evalue="1.4e-002">
+      <pos A="0.000000" C="0.000000" G="0.000000" T="1.000000"/>
+      <pos A="0.000000" C="0.000000" G="1.000000" T="0.000000"/>
+      <pos A="1.000000" C="0.000000" G="0.000000" T="0.000000"/>
+      <pos A="0.000000" C="1.000000" G="0.000000" T="0.000000"/>
+      <pos A="0.000000" C="0.000000" G="0.000000" T="1.000000"/>
+      <pos A="0.000000" C="1.000000" G="0.000000" T="0.000000"/>
+      <pos A="1.000000" C="0.000000" G="0.000000" T="0.000000"/>
+      <match seq="TGACTCA" p="29" n="3" pvalue="9.1e-007" evalue="2.7e-002"/>
+    </motif>
+    <motif id="m03" seq="SAGGAA" length="6" nsites="101" p="93" n="42" pvalue="1.5e-006" evalue="4.4e-002" unerased_evalue="4.0e-009">
+      <pos A="0.000000" C="0.524752" G="0.475248" T="0.000000"/>
+      <pos A="1.000000" C="0.000000" G="0.000000" T="0.000000"/>
+      <pos A="0.000000" C="0.000000" G="1.000000" T="0.000000"/>
+      <pos A="0.000000" C="0.000000" G="1.000000" T="0.000000"/>
+      <pos A="1.000000" C="0.000000" G="0.000000" T="0.000000"/>
+      <pos A="1.000000" C="0.000000" G="0.000000" T="0.000000"/>
+      <match seq="GAGGAA" p="45" n="17" pvalue="1.6e-004" evalue="4.8e+000"/>
+      <match seq="CAGGAA" p="50" n="27" pvalue="4.3e-003" evalue="1.3e+002"/>
+    </motif>
+  </motifs>
+  <run_time cpu="20.74" real="21.44" stop="evalue"/>
+</dreme>
