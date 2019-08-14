@@ -1,0 +1,24 @@
+Time: 2015-04-14 14:00:03
+User: joseph
+
+Command:
+	$ /usr/local/bin/rgt-viz boxplot em.txt -o HuvecInflammation -t boxplot_nlog -s cluster -g reads -c regions -nlog
+
+Step 1/5: Combining all regions
+    79385 regions from all bed files are combined.
+    --- finished in 0.0 secs
+
+Step 2/5: Calculating coverage of each bam file on all regions
+    --- finished in 0:11:12 (H:M:S)
+
+Step 3/5: Quantile normalization of all coverage table
+    --- finished in 205.0 secs
+
+Step 4/5: Constructing different tables for box plot
+    --- finished in 2.0 secs
+
+Step 5/5: Plotting
+    --- finished in 6.0 secs
+
+Total running time is: 0:14:45 (H:M:S)
+
