@@ -1,9 +1,0 @@
-rgt-viz lineplot em_df.txt -o HuvecInflammation -t lineplot_df -g cluster -s reads -sx -df -mp
-rgt-viz lineplot em_df.txt -o HuvecInflammation -t lineplot_df_1000 -g cluster -s reads -sx -df -e 1000 -mp
-rgt-viz lineplot em.txt -o HuvecInflammation -t lineplot -g cluster -s reads -sx -mp
-rgt-viz lineplot em.txt -o HuvecInflammation -t lineplot_1000 -g cluster -s reads -sx -e 1000 -mp
-
-rgt-viz boxplot em.txt -o HuvecInflammation -s cluster -g reads -c regions
-rgt-viz boxplot em.txt -o HuvecInflammation -t boxplot_nlog -s cluster -g reads -c regions -nlog
-
-rgt-viz heatmap em.txt -o HuvecInflammation -t Heatmap

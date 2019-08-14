@@ -1,8 +1,0 @@
-name	type	file
-broad_huvec_ctcf	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_chip/peakseq_hg18/broad_huvec_ctcf.bed
-duke_huvec_ctcf	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_chip/peakseq_hg18/duke_huvec_ctcf.bed
-sydh_huvec_fos	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_chip/peakseq_hg18/sydh_huvec_fos.bed
-sydh_huvec_gata2	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_chip/peakseq_hg18/sydh_huvec_gata2.bed
-sydh_huvec_jun	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_chip/peakseq_hg18/sydh_huvec_jun.bed
-sydh_huvec_max	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_chip/peakseq_hg18/sydh_huvec_max.bed
-uw_huvec_ctcf	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/co_binding/tfbs_chip/peakseq_hg18/uw_huvec_ctcf.bed

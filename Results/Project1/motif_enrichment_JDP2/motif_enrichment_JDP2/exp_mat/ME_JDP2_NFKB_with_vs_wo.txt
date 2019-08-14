@@ -1,2 +1,0 @@
-name	type	file
-JDP+NFKBwith_FP	regions	/work/eg474423/eg474423_Projects/trunk/HuvecInflammation/Results/motif_enrichment_JDP2/input/JDP+NFKBwith_FP.bed

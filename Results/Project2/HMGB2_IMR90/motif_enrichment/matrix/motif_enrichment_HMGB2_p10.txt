@@ -1,2 +1,0 @@
-name	type	file
-p10_peaks_final_peaks	regions	/Users/egg/Projects/Papantonis_HuvecInflammation/Results/HMGB2_IMR90/motif_enrichment/input/p10_peaks_final_peaks.bed

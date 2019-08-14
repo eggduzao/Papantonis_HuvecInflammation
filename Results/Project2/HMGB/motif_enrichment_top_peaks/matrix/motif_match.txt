@@ -1,2 +1,0 @@
-name	type	file
-Huvec_footprints	regions	/home/egg/eg474423_Projects/trunk/HuvecInflammation/Results/HMGB/motif_enrichment/footprints/Huvec_footprints.bed
